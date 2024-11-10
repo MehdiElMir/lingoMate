@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/Button";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 export default function ButtonsPage() {
   const router = useRouter();
